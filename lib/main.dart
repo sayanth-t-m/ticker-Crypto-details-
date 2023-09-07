@@ -16,7 +16,7 @@ class Myapp extends StatelessWidget {
       color: Colors.blue,
       builder: (context, _) {
         return MaterialApp(
-          theme: ThemeData.light(),
+          theme: ThemeData.dark(),
           darkTheme: ThemeData.dark(),
           themeMode: MediaQuery.of(context).platformBrightness == Brightness.dark
               ? ThemeMode.dark
